@@ -20,11 +20,17 @@
                 "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\dfs\\filesystems\\devfs",
                 "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\dfs\\filesystems\\elmfat",
                 "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\dfs\\filesystems\\romfs",
+                "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\drivers\\include\\drivers",
                 "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\drivers\\misc",
                 "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\drivers\\include",
+                "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\drivers\\i2c",
+                "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\drivers\\spi",
+                "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\drivers\\spi\\sfud\\inc",
+                "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\drivers\\audio",
                 "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\bsp\\stm32\\libraries\\HAL_Drivers",
                 "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\bsp\\stm32\\libraries\\HAL_Drivers\\drv_flash",
                 "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\bsp\\stm32\\libraries\\HAL_Drivers\\config\\h7",
+                "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\user\\audio",
                 "F:\\SoftWare\\Keil_v5\\ARM\\ARMCC\\include",
                 "F:\\SoftWare\\Keil_v5\\ARM\\ARMCC\\include\\rw",
                 "f:\\work\\Embed\\project\\stm32\\h7mp3\\lib",
@@ -34,7 +40,8 @@
                 "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\libcpu\\arm\\cortex-m7",
                 "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\dfs\\src",
                 "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\drivers\\serial",
-                "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\drivers\\src"
+                "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\drivers\\src",
+                "f:\\work\\Embed\\project\\stm32\\h7mp3\\tp\\rt-thread\\components\\drivers\\sdio"
             ],
             "defines": [
                 "USE_FULL_LL_DRIVER",
@@ -116,7 +123,8 @@
                 "__yield()=",
                 "__vfp_status(x,y)=0"
             ],
-            "intelliSenseMode": "${default}"
+            "intelliSenseMode": "linux-gcc-x64",
+            "cStandard": "c99"
         }
     ],
     "version": 4

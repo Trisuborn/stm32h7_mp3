@@ -49,3 +49,11 @@
 .\objects\serial.o: ..\tp\rt-thread\components\drivers\include\drivers/pin.h
 .\objects\serial.o: ..\tp\rt-thread\components\drivers\include\drivers/rt_drv_pwm.h
 .\objects\serial.o: ..\tp\rt-thread\include\rtdbg.h
+.\objects\serial.o: ..\tp\rt-thread\components\dfs\include\dfs_posix.h
+.\objects\serial.o: ..\tp\rt-thread\components\dfs\include\dfs_file.h
+.\objects\serial.o: ..\tp\rt-thread\components\dfs\include\dfs.h
+.\objects\serial.o: F:\SoftWare\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\serial.o: F:\SoftWare\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\serial.o: ..\tp\rt-thread\components\dfs\include\dfs_fs.h
+.\objects\serial.o: ..\tp\rt-thread\components\dfs\include\dfs_poll.h
+.\objects\serial.o: ..\tp\rt-thread\components\libc\compilers\common\sys/time.h

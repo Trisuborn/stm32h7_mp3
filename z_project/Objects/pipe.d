@@ -48,3 +48,11 @@
 .\objects\pipe.o: ..\tp\rt-thread\components\drivers\include\drivers/sdio_func_ids.h
 .\objects\pipe.o: ..\tp\rt-thread\components\drivers\include\drivers/pin.h
 .\objects\pipe.o: ..\tp\rt-thread\components\drivers\include\drivers/rt_drv_pwm.h
+.\objects\pipe.o: ..\tp\rt-thread\components\dfs\include\dfs_file.h
+.\objects\pipe.o: ..\tp\rt-thread\components\dfs\include\dfs.h
+.\objects\pipe.o: F:\SoftWare\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\pipe.o: F:\SoftWare\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\pipe.o: ..\tp\rt-thread\components\dfs\include\dfs_fs.h
+.\objects\pipe.o: ..\tp\rt-thread\components\dfs\include\dfs_posix.h
+.\objects\pipe.o: ..\tp\rt-thread\components\dfs\include\dfs_poll.h
+.\objects\pipe.o: ..\tp\rt-thread\components\libc\compilers\common\sys/time.h

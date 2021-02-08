@@ -54,5 +54,7 @@
 .\objects\dfs.o: ..\tp\rt-thread\components\dfs\include\dfs_file.h
 .\objects\dfs.o: ..\tp\rt-thread\components\dfs\include\dfs_private.h
 .\objects\dfs.o: ..\tp\rt-thread\include\rtdbg.h
+.\objects\dfs.o: ..\tp\rt-thread\components\libc\compilers\armlibc\libc.h
+.\objects\dfs.o: F:\SoftWare\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\dfs.o: ..\tp\rt-thread\components\finsh\finsh.h
 .\objects\dfs.o: F:\SoftWare\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h

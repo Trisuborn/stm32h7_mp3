@@ -29,7 +29,7 @@ int main()
 #if USER_USE_RTTHREAD == (1u)
     uint32_t ts, te, t;
     uint32_t i = 0;
-    
+
     rt_pin_mode(LED0_PIN, PIN_MODE_OUTPUT);
 
     while ( 1 ) {
@@ -50,3 +50,18 @@ int main()
 #endif
 
 }
+
+// #define LCD_WIDTH           320u
+// #define LCD_HEIGHT          480u
+// #define LCD_BITS_PER_PIXEL  24u
+// #define LCD_BYTES_PER_PIXEL  (LCD_BITS_PER_PIXEL / 8)
+// #define LCD_BUF_SIZE        (460800) // (LCD_WIDTH * LCD_HEIGHT * LCD_BYTES_PER_PIXEL)
+// extern struct rt_memheap system_heap0;
+// static void sdram(void)
+// {
+//     uint32_t size = LCD_BUF_SIZE;
+//     rt_kprintf("allocate : %d b.\n", size);
+//     uint8_t *buf = rt_memheap_alloc(&system_heap0, size);
+// }
+// MSH_CMD_EXPORT(sdram, sdram);
+// INIT_APP_EXPORT(sdram);

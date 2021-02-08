@@ -1,3 +1,24 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "cSpell.ignoreWords": [
+        "Trisuborn",
+        "artpi",
+        "bkup",
+        "cdev",
+        "dcmi",
+        "devno",
+        "filp",
+        "gpio",
+        "imajor",
+        "iminor",
+        "loff",
+        "sdio",
+        "sdmmc",
+        "sdram",
+        "sram",
+        "vtor"
+    ],
+    "files.associations": {
+        "sdram_port.h": "c"
+    }
 }

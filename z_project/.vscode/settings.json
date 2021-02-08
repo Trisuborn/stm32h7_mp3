@@ -1,0 +1,20 @@
+{
+    "cSpell.ignoreWords": [
+        "Trisuborn",
+        "bkup",
+        "cdev",
+        "devno",
+        "filp",
+        "imajor",
+        "iminor",
+        "loff",
+        "nvic",
+        "sdmmc",
+        "sdram",
+        "sram",
+        "vtor"
+    ],
+    "files.associations": {
+        "drv_soft_i2c.h": "c"
+    }
+}

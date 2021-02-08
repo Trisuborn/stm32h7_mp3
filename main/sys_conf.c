@@ -146,8 +146,7 @@ int clock_information(void)
 
     return 0;
 }
-INIT_BOARD_EXPORT(clock_information);
-
+INIT_COMPONENT_EXPORT(clock_information);
 
 TIM_HandleTypeDef        htim5;
 

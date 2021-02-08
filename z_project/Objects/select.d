@@ -54,4 +54,5 @@
 .\objects\select.o: ..\tp\rt-thread\components\dfs\include\dfs_posix.h
 .\objects\select.o: ..\tp\rt-thread\components\dfs\include\dfs_file.h
 .\objects\select.o: ..\tp\rt-thread\components\dfs\include\dfs_poll.h
+.\objects\select.o: ..\tp\rt-thread\components\libc\compilers\common\sys/time.h
 .\objects\select.o: ..\tp\rt-thread\components\dfs\include\dfs_select.h

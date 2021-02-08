@@ -55,3 +55,4 @@
 .\objects\poll.o: ..\tp\rt-thread\components\dfs\include\dfs_fs.h
 .\objects\poll.o: ..\tp\rt-thread\components\dfs\include\dfs_posix.h
 .\objects\poll.o: ..\tp\rt-thread\components\dfs\include\dfs_poll.h
+.\objects\poll.o: ..\tp\rt-thread\components\libc\compilers\common\sys/time.h
